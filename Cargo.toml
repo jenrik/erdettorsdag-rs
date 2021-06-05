@@ -1,0 +1,12 @@
+[package]
+name = "erdettorsdag"
+version = "0.1.0"
+authors = ["Jener Rasmussen <jener@jener.dk>"]
+edition = "2018"
+
+[dependencies]
+async-std = { version = "1.9.0", features = ["attributes"] }
+tide = "0.16.0"
+askama = { version = "0.10.5", features = ["with-tide"] }
+askama_tide = "0.13.0"
+chrono = "0.4.19"
